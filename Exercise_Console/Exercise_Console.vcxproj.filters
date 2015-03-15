@@ -13,8 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Template">
+    <Filter Include="01Template">
       <UniqueIdentifier>{91c62c9f-0147-4903-9b8d-83a2022d1c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02EightQuee">
+      <UniqueIdentifier>{e0806e4e-2c0a-4975-8f0c-42881e05b900}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -28,7 +31,10 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Template.h">
-      <Filter>Template</Filter>
+      <Filter>01Template</Filter>
+    </ClInclude>
+    <ClInclude Include="EightQuee.h">
+      <Filter>02EightQuee</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -39,7 +45,10 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Template.cpp">
-      <Filter>Template</Filter>
+      <Filter>01Template</Filter>
+    </ClCompile>
+    <ClCompile Include="EightQuee.cpp">
+      <Filter>02EightQuee</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
