@@ -19,6 +19,9 @@
     <Filter Include="02EightQuee">
       <UniqueIdentifier>{e0806e4e-2c0a-4975-8f0c-42881e05b900}</UniqueIdentifier>
     </Filter>
+    <Filter Include="03Shellwc">
+      <UniqueIdentifier>{e2b9110a-bf49-4d2f-96a8-33f7691ec9ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -36,6 +39,9 @@
     <ClInclude Include="EightQuee.h">
       <Filter>02EightQuee</Filter>
     </ClInclude>
+    <ClInclude Include="Shellwc.h">
+      <Filter>03Shellwc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -49,6 +55,9 @@
     </ClCompile>
     <ClCompile Include="EightQuee.cpp">
       <Filter>02EightQuee</Filter>
+    </ClCompile>
+    <ClCompile Include="Shellwc.cpp">
+      <Filter>03Shellwc</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

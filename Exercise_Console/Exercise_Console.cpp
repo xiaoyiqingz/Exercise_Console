@@ -5,6 +5,7 @@
 
 #include "Template.h"
 #include "EightQuee.h"
+#include "Shellwc.h"
 
 using namespace test;
 
@@ -14,8 +15,10 @@ void FuncEightQuee();
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//FuncTemplate();
-	FuncEightQuee();
+	//FuncEightQuee();
+	Shellwc(argc, argv);
 
+	getchar();
 	return 0;
 }
 
